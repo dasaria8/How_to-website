@@ -5,7 +5,8 @@ html {
   font-family: 'Montserrat', sans-serif;
 
   /*Background image*/
-  background: url(header.jpg) no-repeat center center fixed; /*This line fills the whole page with our image that adapts*/
+  background: url(black_background.jpg) no-repeat center center fixed;
+  /*background: url(header.jpg) no-repeat center center fixed; /*This line fills the whole page with our image that adapts*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -25,7 +26,7 @@ hr{
   max-width: 65px;
 }
 h1{
-  font-size: 3rem;
+  font-size: 2rem;
   color: #e2dbdb;
 }
 .buffer{
