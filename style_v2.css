@@ -3,8 +3,6 @@ body{
     font-family: Arial;
 }
 .zone {
-    background: url(./img/black_background.jpg) no-repeat center center fixed;
-    /*background: url(header.jpg) no-repeat center center fixed; /*This line fills the whole page with our image that adapts*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -71,6 +69,7 @@ li{
     height: 50vh;/*viewport height makes it height reponsive so if you adjust browser height, it will not get cutoff*/
 }
 .cover{
+    height: 15rem;
     width: 30rem;
 }
 
@@ -84,6 +83,7 @@ li{
     width: 100%;
 }
 .box{
+    background: url(./img/black_background.jpg) no-repeat center center fixed;
     background-color: #444;
     padding: 100px;
     margin: 20px;
